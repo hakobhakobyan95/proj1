@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da');
+
+body{
+	height: 100vh;
+	position: relative;
+}
+
+nav:first-child{
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+}
+
+.nav-wrapper{
+	position: relative;
+}
+
+
+#logo{
+	filter: brightness(150%);
+	position: absolute;
+	height: 100%;
+	top: 10%;
+}
+
+#brand{
+	float: right;
+}
+
+.brand-logo span{
+	font-family: 'Baloo Da', cursive;
+}
+
+#error{
+	margin-top: 30px;
+}

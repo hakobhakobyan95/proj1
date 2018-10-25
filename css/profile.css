@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+
+#_body{
+	top: 10%;
+	position: relative;
+	color: white !important;
+}
+
+#profile, #guest, #notifications{
+	color: black !important;
+}
+
+.txt{
+	font-family: 'Baloo', cursive !important;
+}
+
+#profile img{
+	transition: .2s;
+	cursor: pointer;
+}
+
+#profile img:hover{
+	opacity: .85;
+}
+
+#save{
+	float: none;
+	left: 60%;
+}
+
+.photo{
+	position: relative !important;
+	border-radius: 2px;
+	height: 20vh;
+	cursor: pointer;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 1% !important;
+	margin-bottom: 1.5% !important;
+}
+
+.photo:first-child i{
+	position: relative !important;
+	font-size: 50px;
+	transition: .25s;
+	color: rgba(255,255,255,.6);
+}
+
+#nav-mobile i{
+	display: inline-block;
+	margin-right: 1vw;
+}
+
+.fnc{
+	background-color: rgba(255,255,255,.2);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.spp{
+	font-size: 12px;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: #7cb342;
+}
+
+.del{
+	color: #f44336;
+}
+
+.zoom{
+	color: #2196f3;
+}
+
+.btns{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 0px !important;
+}
+
+.spp,.del,.zoom{
+	font-weight: 900;
+	display: inline-block;
+	margin: auto;
+	background-color: rgba(0,0,0,.6);
+	transition: .2s;
+	text-align: center;
+}
+
+.spp,.del,.zoom i{
+	font-size: 35px;
+}
+
+#delete{
+	float: none;
+	left: 70%;
+}
+
+#zoom-image{
+	overflow: initial;
+	height: 0;
+}
+
+#zoom-image>div{
+	position: relative;
+	overflow: initial;
+	left: 0 !important;
+	top: 0 !important;
+	width: 100%;
+}
+
+#zoom-image>div>img{
+	position: absolute;
+	left: 0 !important;
+	top: 0 !important;
+	width: 100%;
+	cursor: zoom-out;
+}
+
+#setMain{
+	float: none;
+	left: 70%;
+}
+
+.m_radio[type="radio"]:checked + label:after{
+    background-color: #81c784 !important;
+}
+
+#search{
+	padding-left: 10% !important;
+}
+
+.collection-item{
+	cursor: pointer;
+	position: relative;
+}
+
+.collection-item img{
+	width: 15%;
+}
+
+.name-surname{
+	width: 80%;
+	padding-left: 5%;
+}
+
+#search-result .secondary-content{
+	position: absolute;
+	right: 5%;
+}
+
+#notifications .secondary-content{
+	margin-right: 3%;
+}
+
+
+
+.mbtn>span{
+	vertical-align: top;
+}
+
+.friend{
+	position: relative !important;
+	border-radius: 2px;
+	height: 20vh;
+	cursor: zoom-in;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 1% !important;
+	margin-bottom: 1.5% !important;
+	overflow: hidden;
+}
+
+.messenger-friend{
+	margin-top: 4%;
+	cursor: pointer;
+	width: 100%;
+	color: white !important;
+	background-color: rgba(0,0,0,.4);
+}
+
+.messenger-friend img{
+	filter: contrast(130%) brightness(120%);
+}
+
+.friend .friend-ns{
+	position: absolute;
+	bottom: 0; left: 0;
+	padding-left: 2%;
+	font-weight: 800;
+	color: white;
+	width: 100%;
+	background-color: rgba(0,0,0,.7);
+	overflow: hidden;
+	cursor: pointer !important;
+}

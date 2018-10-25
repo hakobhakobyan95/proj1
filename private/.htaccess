@@ -1,0 +1,4 @@
+<Files uploads,database.php,functions.php,server.php,user.php>
+order allow,deny
+deny from all
+</Files>

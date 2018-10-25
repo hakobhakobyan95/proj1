@@ -1,0 +1,16 @@
+body{
+	background-image: url('../img/body.jpg');
+	background-attachment: fixed;
+	background-size: 50% 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+#reg{
+	cursor: pointer;
+	position: absolute;
+	width: 20%;
+	bottom: 60%;
+	right: 5%;
+}
